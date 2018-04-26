@@ -12,6 +12,13 @@
 		195CC8801CD0A78B007B93AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195CC87E1CD0A78B007B93AB /* Main.storyboard */; };
 		195CC8821CD0A78B007B93AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195CC8811CD0A78B007B93AB /* Assets.xcassets */; };
 		195CC8851CD0A78B007B93AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195CC8831CD0A78B007B93AB /* LaunchScreen.storyboard */; };
+		195CC88D1CD0AC1F007B93AB /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CC88C1CD0AC1F007B93AB /* ContainerViewController.swift */; };
+		195CC88F1CD0B6AE007B93AB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CC88E1CD0B6AE007B93AB /* MenuViewController.swift */; };
+		195CC8911CD0B6C4007B93AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CC8901CD0B6C4007B93AB /* DetailViewController.swift */; };
+		195CC8931CD0B845007B93AB /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CC8921CD0B845007B93AB /* MenuItemCell.swift */; };
+		195CC8951CD0BABE007B93AB /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 195CC8941CD0BABE007B93AB /* MenuItems.plist */; };
+		195CC8971CD0BACD007B93AB /* HamburgerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CC8961CD0BACD007B93AB /* HamburgerView.swift */; };
+		195CC8991CD0BAD2007B93AB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CC8981CD0BAD2007B93AB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		195CC8811CD0A78B007B93AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195CC8841CD0A78B007B93AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		195CC8861CD0A78B007B93AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195CC88C1CD0AC1F007B93AB /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		195CC88E1CD0B6AE007B93AB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		195CC8901CD0B6C4007B93AB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		195CC8921CD0B845007B93AB /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		195CC8941CD0BABE007B93AB /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		195CC8961CD0BACD007B93AB /* HamburgerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerView.swift; sourceTree = "<group>"; };
+		195CC8981CD0BAD2007B93AB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +70,14 @@
 			children = (
 				195CC87A1CD0A78B007B93AB /* AppDelegate.swift */,
 				195CC87C1CD0A78B007B93AB /* ViewController.swift */,
+				195CC88C1CD0AC1F007B93AB /* ContainerViewController.swift */,
+				195CC88E1CD0B6AE007B93AB /* MenuViewController.swift */,
+				195CC8901CD0B6C4007B93AB /* DetailViewController.swift */,
+				195CC8921CD0B845007B93AB /* MenuItemCell.swift */,
+				195CC8961CD0BACD007B93AB /* HamburgerView.swift */,
+				195CC8981CD0BAD2007B93AB /* Extensions.swift */,
 				195CC87E1CD0A78B007B93AB /* Main.storyboard */,
+				195CC8941CD0BABE007B93AB /* MenuItems.plist */,
 				195CC8811CD0A78B007B93AB /* Assets.xcassets */,
 				195CC8831CD0A78B007B93AB /* LaunchScreen.storyboard */,
 				195CC8861CD0A78B007B93AB /* Info.plist */,
@@ -122,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195CC8951CD0BABE007B93AB /* MenuItems.plist in Resources */,
 				195CC8851CD0A78B007B93AB /* LaunchScreen.storyboard in Resources */,
 				195CC8821CD0A78B007B93AB /* Assets.xcassets in Resources */,
 				195CC8801CD0A78B007B93AB /* Main.storyboard in Resources */,
@@ -136,7 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				195CC87D1CD0A78B007B93AB /* ViewController.swift in Sources */,
+				195CC88D1CD0AC1F007B93AB /* ContainerViewController.swift in Sources */,
+				195CC8911CD0B6C4007B93AB /* DetailViewController.swift in Sources */,
+				195CC8991CD0BAD2007B93AB /* Extensions.swift in Sources */,
+				195CC8931CD0B845007B93AB /* MenuItemCell.swift in Sources */,
+				195CC8971CD0BACD007B93AB /* HamburgerView.swift in Sources */,
 				195CC87B1CD0A78B007B93AB /* AppDelegate.swift in Sources */,
+				195CC88F1CD0B6AE007B93AB /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = menu3d/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uqsoft.menu3d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = menu3d/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uqsoft.menu3d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +316,7 @@
 				195CC88B1CD0A78B007B93AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
